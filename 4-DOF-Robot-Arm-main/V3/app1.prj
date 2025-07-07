@@ -1,0 +1,117 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="671821509" file="E:\Machines\Robotics\New folder\4-DOF-Robot-Arm-main\4-DOF-Robot-Arm-main\V3\app1.prj" location="E:\Machines\Robotics\New folder\4-DOF-Robot-Arm-main\4-DOF-Robot-Arm-main\V3" name="app1" target="target.mlapps" target-name="Package App">
+    <param.appname>app1</param.appname>
+    <param.authnamewatermark>MAS</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>PID controlled4 DOF Robot Arm</param.description>
+    <param.screenshot>C:\Users\m\AppData\Local\Temp\tpfe30719d_3f05_4647_9d20_aa89b6d72a22.png</param.screenshot>
+    <param.version>2.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\output</param.output>
+    <param.guid>2485005b-b081-4ee6-aaf7-9faa6d373e54</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\Aluminum_Robot_ARM.slx</file>
+      <file>${PROJECT_ROOT}\Aluminum_Robot_ARM.slx.original</file>
+      <file>${PROJECT_ROOT}\Aluminum_Robot_ARM.slxc</file>
+      <file>${PROJECT_ROOT}\Aluminum_Robot_ARM.xml</file>
+      <file>${PROJECT_ROOT}\Aluminum_Robot_ARM_BadgeHandler.html</file>
+      <file>${PROJECT_ROOT}\Aluminum_Robot_ARM_DataFile.m</file>
+      <file>${PROJECT_ROOT}\app1.mlapp</file>
+      <file>${PROJECT_ROOT}\app1.prj</file>
+      <file>${PROJECT_ROOT}\Bicep motor.png</file>
+      <file>${PROJECT_ROOT}\joint 3.png</file>
+      <file>${PROJECT_ROOT}\Part1_Default_sldprt.STEP</file>
+      <file>${PROJECT_ROOT}\Part2_Default_sldprt.STEP</file>
+      <file>${PROJECT_ROOT}\Part3_Default_sldprt.STEP</file>
+      <file>${PROJECT_ROOT}\Part4_Default_sldprt.STEP</file>
+      <file>${PROJECT_ROOT}\Part5_Default_sldprt.STEP</file>
+      <file>${PROJECT_ROOT}\Part6_Default_sldprt.STEP</file>
+      <file>${PROJECT_ROOT}\PIDTUNE.docx</file>
+      <file>${PROJECT_ROOT}\teest 2.png</file>
+      <file>${PROJECT_ROOT}\teest.png</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\" name="output" optional="false">C:\output</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\Polyspace\R2019a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
